@@ -3,7 +3,7 @@
 
  ## How to use:
  Add a 2nd camera and set the environment to be solid color. I use black with 0 alpha.
- Set the cameras culling mask to a custom layer.
+ Set the cameras culling mask to things you want to allow to block vision of the objects.
  Add the RunVisionComputeShader to the camera and add the VisibilityCompute shader to it.
  
  Apply the UniqueColorShader.shader to a material and give the gameobjects you want to track the material.
