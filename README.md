@@ -1,5 +1,5 @@
 # PixelPerfectOcclusionShader
- A way to check if specific objects are within the view of a camera by giving specific objects a unique color and checking if the colors are visible on a render texture using a computer shader.
+ A way to check if specific objects are within the view of a camera by giving specific objects a unique color and checking if the colors are visible on a render texture using a compute shader.
 
  ## How to use:
  Add a 2nd camera and set the environment to be solid color. I use black with 0 alpha.
